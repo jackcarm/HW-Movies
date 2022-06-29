@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-const ViewNewMovies = ({ text, url }) => {
+
+const ViewNewMovies = () => {
     return (
         <>
-            <a href={url} >
-                <p>{text}</p>
+            <a href="https://www.imdb.com/calendar/?region=gb" >
+                View more upcoming releases >>
             </a>
         </>
     )
 }
+
+export default ViewNewMovies;

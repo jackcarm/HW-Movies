@@ -32,10 +32,6 @@ const UpcomingMovieBox = () => {
                 url: "https://www.imdb.com/title/tt4154664/?ref_=rlm"
             }
         ],
-        link {
-        text: "View more upcoming releases >>",
-        url: "https://www.imdb.com/calendar/?region=gb"
-    }
     )
 
 
@@ -47,7 +43,7 @@ const UpcomingMovieBox = () => {
             <hr />
             <MovieTitleList movies={movies} />
             <hr />
-            <ViewNewMovies link={link} />
+            <ViewNewMovies />
 
         </>
     )
